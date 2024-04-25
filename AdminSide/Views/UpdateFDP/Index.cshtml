@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      
+        <link rel="stylesheet" href="~/css/needs.css" />
+        <link rel="stylesheet" href="~/css/Conge.css" />
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" media="all" href="~/css/daterange/daterangepicker.css" />
+        <script src="~/css/daterange/daterangepicker.js"></script>
+        <script src="~/css/daterange/moment.min.js"></script>
+        <script type="text/javascript" src="~/js/jquery.js"></script>
+  <style>
+        .label-form {
+          margin-bottom: 5px;
+          font-weight: bold;
+          padding: 5px;
+          background-color: #333;
+          color: white;
+          border-radius: 5px;
+        }
+        .date-form {
+          margin-top : 100px;
+          background-color: #f9f9f9;
+          padding: 20px;
+          border-radius: 10px;
+        }
+        .demo {
+          margin: 10px 0;
+        }
+        .motif-conge {
+          border: 1px solid #ccc;
+          height: 40px;
+          border-radius: 3px;
+          margin: 10px 0;
+        }
+        .form-control {
+          width: 100%;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 3px;
+          font-size: 16px;
+        }
+        .date-submit {
+          background-color: #009DFF;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          padding: 10px 20px;
+          cursor: pointer;
+        }
+      </style>
+   </head>
+
+<body>
+    
+
+
+<div class="row col-md-6 mx-auto date-form">
+    <form action="/UpdateFDP/Update" method="post">
+        <br>
+        <p class="label-form col-md-12">Matricule</p>
+        <div class="col-md-12 col-md-offset-2 demo">
+            <select name="Matricule" class="form-control">
+            @foreach(var Employer in ViewBag.allEmployer){
+                <option value="@Employer.Matricule">@Employer.FirstName @Employer.LastName</option>
+            }
+            </select>
+        </div>
+      
+        <p class="label-form col-md-12">Column Name</p>
+        <div class="col-md-12">
+            <select name="ColumnName" class="form-control">
+                <option value="nombre_de_jours">Nombre de jours</option>
+                <option value="salaire_de_base">Salaire de base</option>
+                <option value="heure_sup_30">Heure Sup 30</option>
+                <option value="heure_sup_40">Heure Sup 40</option>
+                <option value="heure_sup_50">Heure Sup 50</option>
+                <option value="heure_sup_100">Heure Sup 100</option>
+                <option value="prime_de_rendement">Prime de Rendement</option>
+                <option value="prime_d_anciennete">Prime d'Ancienneté</option>
+                <option value="majoration_heure_nuit">Majoration Heure Nuit</option>
+                <option value="prime_diverse">Prime Diverse</option>
+                <option value="rappels_periode_anterieure">Rappels Période Antérieure</option>
+                <option value="droit_conge">Droit Congé</option>
+                <option value="droit_preavis">Droit Préavis</option>
+                <option value="indemnite_de_licenciement">Indemnité de Licenciement</option>
+                <option value="jours_absence">Jours d'Absence</option>
+            </select>
+        </div>
+      
+        <p class="label-form col-md-12">Value</p>
+        <div class="col-md-12 col-md-offset-2 demo">
+            <input type="number" name="Value" class="form-control">
+        </div>
+      
+        <p class="label-form col-md-12">Type</p>
+        <div class="col-md-12">
+            <select name="Type" class="form-control">
+                <option value="change">Change</option>
+                <option value="add">Add</option>
+            </select>
+        </div>
+      
+        <p class="label-form col-md-12">Date de Début</p>
+        <div class="col-md-12 col-md-offset-2 demo">
+            <input type="date" name="DateDebut" class="form-control">
+        </div>
+      
+        <div class="col-md-12 col-md-offset-2 demo">
+            <input type="submit" class="form-control date-submit">
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

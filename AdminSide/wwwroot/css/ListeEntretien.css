@@ -1,0 +1,30 @@
+.ListeCandidat table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px auto;
+}
+.ListeCandidat table, th, td {
+}
+.ListeCandidat th, td {
+    padding: 10px;
+    text-align: center;
+}
+.ListeCandidat th {
+    background-color: #e4e4e4;
+    color: rgb(2, 2, 2);
+    font-weight: bold;
+    padding: 10px;
+}
+.ListeCandidat tr:nth-child(even) {
+    background-color: #ffffff;
+}
+.ListeCandidat tr:hover {
+    background-color: #d5c3da;
+}
+.btnEntretien{
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    background-color: #5990B0;
+    border-radius: 2px;
+    text-decoration: none;
+}

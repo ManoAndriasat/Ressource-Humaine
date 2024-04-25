@@ -1,0 +1,136 @@
+@{
+    ViewData["Title"] = "Votre Titre";
+}
+
+<link rel="stylesheet" href="~/css/needs.css" />
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<body>
+    <div class="main">
+    
+        <form class="descri" method="post" action="/Besoin/Insert">
+        
+            <div class="left-div">
+            <div class="form-row">
+                <div class="name">Titre Annonce</div>
+                <div class="value">
+                    <div class="input-group">
+                        <input class="input--style-5" type="text" name="titre" value="recherche designer" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="name">Service</div>
+                <div class="value">
+                    <div class="input-group">
+                        <input class="input--style-5" type="text" name="Service" value="Designer"/>
+                    </div>
+                </div>
+            </div>
+
+      
+
+            <div class="form-row">
+                <div class="name">Type de Post</div>
+                <div class="value">
+                    <div class="input-group">
+                        <div class="col-12">
+                            <select class="input--style-5" name="type">
+                                <option >Choose option</option>
+                                        <option value="CDI">CDI</option>
+                                        <option value="CDD">CDD</option>
+                                        <option value="CTT" selected="selected">CTT</option>
+                                        <option value="CUI">CUI</option>
+                                        <option value="CTP">CTP</option>
+                                        <option value="CTP">CTP</option>
+                                        <option value="CDDU">CDDU</option>
+                                        <option value="TPE">TPE</option>
+                                        <option value="TPE">TPE</option>
+                                        <option value="TPI">TPI</option>
+                                        <option value="CDT">CDT</option>
+                                        <option value="CSP">CSP</option>
+                                        <option value="CIF">CIF</option>
+                                        <option value="CAE">CAE</option>
+                                        <option value="CIE">CIE</option>
+                                        <option value="CDII">CDII</option>
+                                        <option value="PDG">PDG</option>
+                                        <option value="CEO">CEO</option>
+                                        <option value="CFO">CFO</option>
+                                        <option value="CTO">CTO</option>
+                                        <option value="COO">COO</option>
+                                        <option value="HR">HR</option>
+                                        <option value="PM">PM</option>
+                                        <option value="VP">VP</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           
+           
+            <div class="form-row">
+                <div class="name">Région de Madagascar</div>
+                <div class="value">
+                    <div class="input-group">
+                        <div class="col-12">
+                            <select class="input--style-5" name="region">
+                                <option >Choisissez une région</option>
+                                <option value="Antananarivo" selected="selected">Antananarivo</option>
+                                <option value="Antsiranana">Antsiranana</option>
+                                <option value="Fianarantsoa">Fianarantsoa</option>
+                                <option value="Mahajanga">Mahajanga</option>
+                                <option value="Toamasina">Toamasina</option>
+                                <option value="Toliara">Toliara</option>
+                                <!-- Ajoutez d'autres régions ici -->
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="form-row m-b-55">
+                <div class="name">Duration</div>
+                <div class="value">
+                    <div class="row row-refine">
+                        <div class="col-6">
+                            <div class="input-group-desc">
+                                <input class="input--style-5" type="heure" name="HeureParJour" value="4" />
+                                <label class="label--desc">Heure/j</label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="input-group-desc">
+                                <input class="input--style-5" type="jour" name="JourParSemaine" value="5"/>
+                                <label class="label--desc">Jour/Semaine</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <button class="bouton" type="submit">Register</button>
+            </div>
+        </div> 
+
+
+        <div class="right-div">
+            <div class="form-row">
+                <div class="name">Description</div>
+                <div class="value">
+                    <div class="input-group">
+                        <textarea spellcheck="false" class="description" placeholder="     ajouter Description..." name="Description"> </textarea>
+                        <!-- ajoute un name pour prendre value du text Area -->
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        </form>
+    </div>
+</body>

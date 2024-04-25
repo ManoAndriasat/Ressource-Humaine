@@ -1,0 +1,71 @@
+@model List<EmployerModel>
+        <link rel="stylesheet" href="~/css/employerCss/ListeEmployer.css">
+   
+
+    <body style="background-color: rgb(226, 226, 226);width: 100%;">
+
+        <div class="ListPersonnel">
+            <div class="filtre">
+                <form action="" name="search-form">
+                    <input type="text" name="search-input" id="searchbar" placeholder="Search...">
+                </form>
+
+                <p>
+                    <span>Sort par</span> <select name="" id="sortSelect" onchange="validation()">
+                        <option value="matricule" selected >Matricule</option>
+                        <option value="firstname" >Nom</option>
+                        <option value="lastname" >Prenom</option>
+                        <option value="date_naissance" >Age</option>
+                        <option value="direction" >Direction</option>
+                        <option value="fonction" >Fonction</option>
+                    </select>
+                </p>
+                <p>
+                    <span>Tri</span> <select name="" id="triSelect" onchange="validation()">
+                        <option value="asc" selected>Croissant</option>
+                        <option value="desc">Decroissant</option>
+                    </select>
+                </p>
+
+                <p>
+                    <span>Genre</span> <select name="" id="genreSelect" onchange="validation()">
+                        <option value="tout" selected>Tout</option>
+                        <option value="homme">Homme</option>
+                        <option value="femme">Femme</option>
+                    </select>
+                </p>
+            </div>
+            
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Matricule</th>
+                        <th>Nom</th>
+                        <th>Prenom</th>
+                        <th>Genre</th>
+                        <th>Age</th>
+                        <th>Direction</th>
+                        <th>Fonction</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="bodyEmpTable">
+                @foreach(var employer in Model) {
+                    <tr>
+                        <td>@employer.Matricule</td>
+                        <td>@employer.FirstName</td>
+                        <td>@employer.LastName</td>
+                        <td>@employer.Genre</td>
+                        <td>@employer.Date_naissance</td>
+                        <td>@employer.Direction</td>
+                        <td>@employer.Fonction</td>
+                        <td class="bouton-CRUD"><a href="/Employer/Profil?Matricule=@employer.Matricule" class="btnEntretien"><img src="~/image/view.png" alt=""></a></td>
+                    </tr>
+                }
+                </tbody>
+            </table> 
+
+        </div>
+    </body>
+    <script src="~/js/employerJs/ajaxTrixAndSearch.js"></script>

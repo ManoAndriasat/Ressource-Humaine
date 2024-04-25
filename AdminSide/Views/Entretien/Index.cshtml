@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="~/css/needs.css" />
+<link rel="stylesheet" href="~/css/ListeEntretien.css" />
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<body>
+    <div class="ListeCandidat">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nom</th>
+                    <th>Sexe</th>
+                    <th>Poste recherché</th>
+                    <th>Note</th>
+                    <th>Date</th>
+                    <th>Envoyé à l'entretien</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var candidat in @ViewBag.ListeCandidat)
+                {
+                    <tr>
+                        <td>@candidat.ID_Candidat</td>
+                        <td>@candidat.Prenom @candidat.Nom</td>
+                        <td>@candidat.Sexe</td>
+                        <td>@candidat.PosteRecherche</td>
+                        <td>@candidat.Note</td>
+                        <td><input type="datetime-local" class="dateEntretien" name="dateEntretien"></td>
+                        <td><a href="/Entretien/" class="btnEntretien">Envoyer</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>

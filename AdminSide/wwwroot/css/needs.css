@@ -1,0 +1,163 @@
+
+
+.border{
+    height: 40px;
+    width: 100%;
+    background-color: #2e2e2e;
+    border-top-right-radius:5px ;
+    border-top-left-radius:5px ;
+    border: solid;
+}
+
+input[type="radio"] {
+  margin-left: 10px;
+}
+
+.description{
+  width:100%;
+  height: 500px;
+  border: 0.5px solid #dbdbdb;
+}
+
+
+
+.bouton {
+  width: 100%;
+  text-decoration: none;
+  background-color: #5990B0;
+  color: white;
+  padding: 10px 46%;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+  text-align: center;
+}
+
+.bouton:hover{
+  text-decoration: none;
+  background-color: #5990B0;
+  color: #ffffff;
+  border: none;
+}
+.form input {
+  margin: 10px 0;
+  width: 100%;
+  background-color: #e2e2e2;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+
+
+/* Style des champs de texte */
+.input--style-5 {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+/* Style des labels */
+.label--desc {
+  font-size: 12px;
+  color: #888;
+}
+
+/* Style des sélecteurs */
+.select--no-search select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+/* Style des boutons radio */
+.radio-container {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+.checkmark {
+  position: relative;
+  top: 1px;
+  border: 1px solid #888;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+/* Style du bouton d'envoi */
+.btn--radius-2 {
+  width: 100%;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #5990B0;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+/* Style du bouton d'envoi au survol */
+.btn--radius-2:hover {
+  background-color: #5990B0;
+}
+
+/* Style des étiquettes "Name", "Company", etc. */
+.name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Style des conteneurs "value" */
+.value {
+  margin-bottom: 20px;
+}
+
+.main .descri{
+  height: 100vh; /* Hauteur de 100% de la hauteur de la fenêtre (écran) */
+  width: 90%; /* Largeur de 80% de la fenêtre */
+  margin: 0 auto; /* Pour centrer horizontalement */
+  padding: 20px; /* Espacement intérieur */
+  display: flex; /* Utilisation de flexbox pour le positionnement */
+  height: 100vh;
+}
+
+.main{
+  height: 100vh; /* Hauteur de 100% de la hauteur de la fenêtre (écran) */
+  width: 100%; /* Largeur de 80% de la fenêtre */
+  margin: 0 auto; /* Pour centrer horizontalement */
+  padding: 20px; /* Espacement intérieur */
+  display: flex; /* Utilisation de flexbox pour le positionnement */
+  height: 100vh;
+}
+
+.main form{
+  width: 90%;
+}
+.left-div {
+  flex: 60%; /* Occupe 35% de l'espace disponible */
+  height: 100vh;
+  text-align: left;
+  overflow-y: scroll;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+/* Div de droite (65%) */
+.right-div {
+  flex: 40%; /* Occupe 65% de l'espace disponible */
+  height: 300px;
+  text-align: left;
+  border-radius: 5px;
+}

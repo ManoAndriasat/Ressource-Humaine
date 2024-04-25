@@ -1,0 +1,84 @@
+/home/mano/Desktop/Projet TOVO/ClientSide/bin/Debug/net6.0/appsettings.Development.json
+/home/mano/Desktop/Projet TOVO/ClientSide/bin/Debug/net6.0/appsettings.json
+/home/mano/Desktop/Projet TOVO/ClientSide/bin/Debug/net6.0/RessourceHumaine.staticwebassets.runtime.json
+/home/mano/Desktop/Projet TOVO/ClientSide/bin/Debug/net6.0/RessourceHumaine
+/home/mano/Desktop/Projet TOVO/ClientSide/bin/Debug/net6.0/RessourceHumaine.deps.json
+/home/mano/Desktop/Projet TOVO/ClientSide/bin/Debug/net6.0/RessourceHumaine.runtimeconfig.json
+/home/mano/Desktop/Projet TOVO/ClientSide/bin/Debug/net6.0/RessourceHumaine.dll
+/home/mano/Desktop/Projet TOVO/ClientSide/bin/Debug/net6.0/RessourceHumaine.pdb
+/home/mano/Desktop/Projet TOVO/ClientSide/bin/Debug/net6.0/Npgsql.dll
+/home/mano/Desktop/Projet TOVO/ClientSide/obj/Debug/net6.0/RessourceHumaine.csproj.AssemblyReference.cache
+/home/mano/Desktop/Projet TOVO/ClientSide/obj/Debug/net6.0/RessourceHumaine.GeneratedMSBuildEditorConfig.editorconfig
+/home/mano/Desktop/Projet TOVO/ClientSide/obj/Debug/net6.0/RessourceHumaine.AssemblyInfoInputs.cache
+/home/mano/Desktop/Projet TOVO/ClientSide/obj/Debug/net6.0/RessourceHumaine.AssemblyInfo.cs
+/home/mano/Desktop/Projet TOVO/ClientSide/obj/Debug/net6.0/RessourceHumaine.csproj.CoreCompileInputs.cache
+/home/mano/Desktop/Projet TOVO/ClientSide/obj/Debug/net6.0/RessourceHumaine.MvcApplicationPartsAssemblyInfo.cache
+/home/mano/Desktop/Projet TOVO/ClientSide/obj/Debug/net6.0/RessourceHumaine.RazorAssemblyInfo.cache
+/home/mano/Desktop/Projet TOVO/ClientSide/obj/Debug/net6.0/RessourceHumaine.RazorAssemblyInfo.cs
+/home/mano/Desktop/Projet TOVO/ClientSide/obj/Debug/net6.0/staticwebassets.build.json
+/home/mano/Desktop/Projet TOVO/ClientSide/obj/Debug/net6.0/staticwebassets.development.json
+/home/mano/Desktop/Projet TOVO/ClientSide/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/home/mano/Desktop/Projet TOVO/ClientSide/obj/Debug/net6.0/scopedcss/bundle/RessourceHumaine.styles.css
+/home/mano/Desktop/Projet TOVO/ClientSide/obj/Debug/net6.0/scopedcss/projectbundle/RessourceHumaine.bundle.scp.css
+/home/mano/Desktop/Projet TOVO/ClientSide/obj/Debug/net6.0/RessourceHumaine.csproj.CopyComplete
+/home/mano/Desktop/Projet TOVO/ClientSide/obj/Debug/net6.0/RessourceHumaine.dll
+/home/mano/Desktop/Projet TOVO/ClientSide/obj/Debug/net6.0/refint/RessourceHumaine.dll
+/home/mano/Desktop/Projet TOVO/ClientSide/obj/Debug/net6.0/RessourceHumaine.pdb
+/home/mano/Desktop/Projet TOVO/ClientSide/obj/Debug/net6.0/RessourceHumaine.genruntimeconfig.cache
+/home/mano/Desktop/Projet TOVO/ClientSide/obj/Debug/net6.0/ref/RessourceHumaine.dll
+/home/mano/Desktop/ClientSide/bin/Debug/net6.0/appsettings.Development.json
+/home/mano/Desktop/ClientSide/bin/Debug/net6.0/appsettings.json
+/home/mano/Desktop/ClientSide/bin/Debug/net6.0/RessourceHumaine.staticwebassets.runtime.json
+/home/mano/Desktop/ClientSide/bin/Debug/net6.0/RessourceHumaine
+/home/mano/Desktop/ClientSide/bin/Debug/net6.0/RessourceHumaine.deps.json
+/home/mano/Desktop/ClientSide/bin/Debug/net6.0/RessourceHumaine.runtimeconfig.json
+/home/mano/Desktop/ClientSide/bin/Debug/net6.0/RessourceHumaine.dll
+/home/mano/Desktop/ClientSide/bin/Debug/net6.0/RessourceHumaine.pdb
+/home/mano/Desktop/ClientSide/bin/Debug/net6.0/Npgsql.dll
+/home/mano/Desktop/ClientSide/obj/Debug/net6.0/RessourceHumaine.csproj.AssemblyReference.cache
+/home/mano/Desktop/ClientSide/obj/Debug/net6.0/RessourceHumaine.GeneratedMSBuildEditorConfig.editorconfig
+/home/mano/Desktop/ClientSide/obj/Debug/net6.0/RessourceHumaine.AssemblyInfoInputs.cache
+/home/mano/Desktop/ClientSide/obj/Debug/net6.0/RessourceHumaine.AssemblyInfo.cs
+/home/mano/Desktop/ClientSide/obj/Debug/net6.0/RessourceHumaine.csproj.CoreCompileInputs.cache
+/home/mano/Desktop/ClientSide/obj/Debug/net6.0/RessourceHumaine.MvcApplicationPartsAssemblyInfo.cache
+/home/mano/Desktop/ClientSide/obj/Debug/net6.0/RessourceHumaine.RazorAssemblyInfo.cache
+/home/mano/Desktop/ClientSide/obj/Debug/net6.0/RessourceHumaine.RazorAssemblyInfo.cs
+/home/mano/Desktop/ClientSide/obj/Debug/net6.0/staticwebassets.build.json
+/home/mano/Desktop/ClientSide/obj/Debug/net6.0/staticwebassets.development.json
+/home/mano/Desktop/ClientSide/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/home/mano/Desktop/ClientSide/obj/Debug/net6.0/scopedcss/bundle/RessourceHumaine.styles.css
+/home/mano/Desktop/ClientSide/obj/Debug/net6.0/scopedcss/projectbundle/RessourceHumaine.bundle.scp.css
+/home/mano/Desktop/ClientSide/obj/Debug/net6.0/RessourceHumaine.csproj.CopyComplete
+/home/mano/Desktop/ClientSide/obj/Debug/net6.0/RessourceHumaine.dll
+/home/mano/Desktop/ClientSide/obj/Debug/net6.0/refint/RessourceHumaine.dll
+/home/mano/Desktop/ClientSide/obj/Debug/net6.0/RessourceHumaine.pdb
+/home/mano/Desktop/ClientSide/obj/Debug/net6.0/RessourceHumaine.genruntimeconfig.cache
+/home/mano/Desktop/ClientSide/obj/Debug/net6.0/ref/RessourceHumaine.dll
+/home/mano/Desktop/Mr Tovo/RessourceHumaine/ClientSide/bin/Debug/net6.0/appsettings.Development.json
+/home/mano/Desktop/Mr Tovo/RessourceHumaine/ClientSide/bin/Debug/net6.0/appsettings.json
+/home/mano/Desktop/Mr Tovo/RessourceHumaine/ClientSide/bin/Debug/net6.0/RessourceHumaine.staticwebassets.runtime.json
+/home/mano/Desktop/Mr Tovo/RessourceHumaine/ClientSide/bin/Debug/net6.0/RessourceHumaine
+/home/mano/Desktop/Mr Tovo/RessourceHumaine/ClientSide/bin/Debug/net6.0/RessourceHumaine.deps.json
+/home/mano/Desktop/Mr Tovo/RessourceHumaine/ClientSide/bin/Debug/net6.0/RessourceHumaine.runtimeconfig.json
+/home/mano/Desktop/Mr Tovo/RessourceHumaine/ClientSide/bin/Debug/net6.0/RessourceHumaine.dll
+/home/mano/Desktop/Mr Tovo/RessourceHumaine/ClientSide/bin/Debug/net6.0/RessourceHumaine.pdb
+/home/mano/Desktop/Mr Tovo/RessourceHumaine/ClientSide/bin/Debug/net6.0/Npgsql.dll
+/home/mano/Desktop/Mr Tovo/RessourceHumaine/ClientSide/obj/Debug/net6.0/RessourceHumaine.csproj.AssemblyReference.cache
+/home/mano/Desktop/Mr Tovo/RessourceHumaine/ClientSide/obj/Debug/net6.0/RessourceHumaine.GeneratedMSBuildEditorConfig.editorconfig
+/home/mano/Desktop/Mr Tovo/RessourceHumaine/ClientSide/obj/Debug/net6.0/RessourceHumaine.AssemblyInfoInputs.cache
+/home/mano/Desktop/Mr Tovo/RessourceHumaine/ClientSide/obj/Debug/net6.0/RessourceHumaine.AssemblyInfo.cs
+/home/mano/Desktop/Mr Tovo/RessourceHumaine/ClientSide/obj/Debug/net6.0/RessourceHumaine.csproj.CoreCompileInputs.cache
+/home/mano/Desktop/Mr Tovo/RessourceHumaine/ClientSide/obj/Debug/net6.0/RessourceHumaine.MvcApplicationPartsAssemblyInfo.cache
+/home/mano/Desktop/Mr Tovo/RessourceHumaine/ClientSide/obj/Debug/net6.0/RessourceHumaine.RazorAssemblyInfo.cache
+/home/mano/Desktop/Mr Tovo/RessourceHumaine/ClientSide/obj/Debug/net6.0/RessourceHumaine.RazorAssemblyInfo.cs
+/home/mano/Desktop/Mr Tovo/RessourceHumaine/ClientSide/obj/Debug/net6.0/staticwebassets.build.json
+/home/mano/Desktop/Mr Tovo/RessourceHumaine/ClientSide/obj/Debug/net6.0/staticwebassets.development.json
+/home/mano/Desktop/Mr Tovo/RessourceHumaine/ClientSide/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/home/mano/Desktop/Mr Tovo/RessourceHumaine/ClientSide/obj/Debug/net6.0/scopedcss/bundle/RessourceHumaine.styles.css
+/home/mano/Desktop/Mr Tovo/RessourceHumaine/ClientSide/obj/Debug/net6.0/scopedcss/projectbundle/RessourceHumaine.bundle.scp.css
+/home/mano/Desktop/Mr Tovo/RessourceHumaine/ClientSide/obj/Debug/net6.0/RessourceHumaine.csproj.CopyComplete
+/home/mano/Desktop/Mr Tovo/RessourceHumaine/ClientSide/obj/Debug/net6.0/RessourceHumaine.dll
+/home/mano/Desktop/Mr Tovo/RessourceHumaine/ClientSide/obj/Debug/net6.0/refint/RessourceHumaine.dll
+/home/mano/Desktop/Mr Tovo/RessourceHumaine/ClientSide/obj/Debug/net6.0/RessourceHumaine.pdb
+/home/mano/Desktop/Mr Tovo/RessourceHumaine/ClientSide/obj/Debug/net6.0/RessourceHumaine.genruntimeconfig.cache
+/home/mano/Desktop/Mr Tovo/RessourceHumaine/ClientSide/obj/Debug/net6.0/ref/RessourceHumaine.dll

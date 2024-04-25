@@ -1,0 +1,81 @@
+@model List<string>
+
+<link rel="stylesheet" href="~/css/employerCss/ListeEmployer.css">
+
+<body style="background-color: rgb(226, 226, 226); width: 100%;">
+    <select id="date_fiche" onchange="validation()" class="form-select" size="3" aria-label="size 3 select example">
+        @foreach (var date in Model)
+            {
+                <option value="@date">@date</option>
+            }
+    </select>
+    <div>
+        <h3>Total Salaire à payer : <span id="totale"> 56 </span> </h3>
+    </div>
+    <div class="ListPersonnel" style="overflow-y: scroll;">
+        <table >
+            <tr>
+                <th>Total de l'employer</th>
+                <th>Matricule</th>
+                <th>Prénom Employeur</th>
+                <th>Nom Employeur</th>
+                <th>Genre Employeur</th>
+                <th>Direction Employeur</th>
+                <th>Fonction Employeur</th>
+                <th>Date de Début</th>
+                <th>Date de Fin</th>
+                <th>Nombre de Jours</th>
+                <th>Salaire de Base</th>
+                <th>Heure Supplémentaire 30</th>
+                <th>Heure Supplémentaire 40</th>
+                <th>Heure Supplémentaire 50</th>
+                <th>Heure Supplémentaire 100</th>
+                <th>Prime de Rendement</th>
+                <th>Prime d'Ancienneté</th>
+                <th>Majoration Heure Nuit</th>
+                <th>Prime Diverse</th>
+                <th>Rappels Période Antérieure</th>
+                <th>Droit Congé</th>
+                <th>Droit Préavis</th>
+                <th>Indemnité de Licenciement</th>
+                <th>Jours d'Absence</th>
+            </tr>
+            <tbody id="body_table">
+
+            </tbody>
+@*             
+            @foreach (var fiche in Model)
+            {
+                <tr>
+                    <td>@fiche.employer.Matricule</td>
+                    <td>@fiche.employer.FirstName</td>
+                    <td>@fiche.employer.LastName</td>
+                    <td>@fiche.employer.Genre</td>
+                    <td>@fiche.employer.Direction</td>
+                    <td>@fiche.employer.Fonction</td>
+                    <td>@fiche.dateDebut</td>
+                    <td>@fiche.dateFin</td>
+                    <td>@fiche.nombreJours</td>
+                    <td>@fiche.salaireDeBase</td>
+                    <td>@fiche.heureSup30</td>
+                    <td>@fiche.heureSup40</td>
+                    <td>@fiche.heureSup50</td>
+                    <td>@fiche.heureSup100</td>
+                    <td>@fiche.primeDeRendement</td>
+                    <td>@fiche.primeDanciennete</td>
+                    <td>@fiche.majorationHeureNuit</td>
+                    <td>@fiche.primeDiverse</td>
+                    <td>@fiche.rappelsPeriodeAnterieure</td>
+                    <td>@fiche.droitConge</td>
+                    <td>@fiche.droitPreavis</td>
+                    <td>@fiche.indemniteDeLicenciement</td>
+                    <td>@fiche.joursAbsence</td>
+                </tr>
+                total += double.Parse(fiche.salaireDeBase);
+            } *@
+        </table>
+
+        
+    </div>
+</body>
+<script src="~/js/EtatDePaie/ajaxEtatDePaie.js"></script>

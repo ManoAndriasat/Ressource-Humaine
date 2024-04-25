@@ -1,0 +1,81 @@
+@model List<EmployeModel>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+            <link rel="stylesheet" href="~/css/needs.css" />
+        <link rel="stylesheet" href="~/css/Conge.css" />
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" media="all" href="~/css/daterange/daterangepicker.css" />
+        <script src="~/css/daterange/daterangepicker.js"></script>
+        <script src="~/css/daterange/moment.min.js"></script>
+        <script type="text/javascript" src="~/js/jquery.js"></script>
+
+</head>
+    <style>
+      .label-form{
+        margin-bottom: 2px;
+        margin-top: 10px;
+        font-weight: bold;
+        padding: 5px;
+        background-color: rgb(167, 167, 167);
+        color: white;
+        border-radius: 5px;
+      }
+      .config-date{
+        display: none;
+      }
+      .demo{
+        margin:10px 0 ;
+      }
+      .motif{
+        width: 1200px;
+      }
+      .date-submit{
+        background-color: rgb(0, 157, 255);
+        color: white;
+        border: none;
+      }
+      .motif-conge{
+        border: solid rgb(217, 217, 217) 1px; 
+        height: 40px;
+        border-radius: 3px;
+        margin: 10px 0;
+      }
+    </style>
+<body>
+
+        <div class="row col-md-8 mx-auto date-form">
+    <h1>GestionSalaire</h1>
+
+<form action="/Employe/insertEmp" method="post">
+<p class="label-form col-md-12">Employer</p>
+<div class="col-md-12 col-md-offset-2 demo">
+        <select name="employe" class="form-control">
+            <option value="null">Pas d'employe</option>
+            @for(int i = 0; i < Model.Count; i++) {
+                <option value="@Model.ElementAt(i).matricule">@Model.ElementAt(i).firstName @Model.ElementAt(i).lastName</option>
+            }
+        </select>
+</div>
+      
+   <p class="label-form col-md-12">Salire de base</p>
+              <div class="col-md-12 col-md-offset-2 demo">
+        <input type="number" name="salaireBase" step="0.01" min="0.00" id="config-demo" class="form-control">
+   </div>
+
+
+ <div class="col-md-12 col-md-offset-2 demo">
+                  <input type="submit" class="form-control date-submit">
+              </div>
+</form>
+</div>
+
+
+</body>
+</html>

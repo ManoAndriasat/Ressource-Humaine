@@ -1,0 +1,139 @@
+
+<link rel="stylesheet" href="~/css/needs.css" />
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    
+    <body>
+        <div class="main">
+                <form method="POST" action="/Coefficient/Insert">
+                    <div class="form-row m-b-55">
+                        <div class="name">Diplome</div>
+                        <div class="value">
+                            <div class="row row-refine">
+                                <div class="col-10">
+                                    <div class="input-group-desc">
+                                        <select  class="input--style-5" name="diplome">
+                                            <option value='BACC.1' selected="selected">BACC</option>
+                                            <option value='License.2'>License</option>
+                                            <option value='Master.3'>Master</option>
+                                            <option value='Doctorat.4'>Doctorat</option>
+                                        </select>
+                                        <label class="label--desc">Titre</label>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="input-group-desc">
+                                        <input class="input--style-5" type="number" name="diplomeCoeff"/>
+                                        <label class="label--desc" value="2">Coefficient</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row m-b-55">
+                        <div class="name">Genre</div>
+                        <div class="value">
+                            <div class="row row-refine">
+                                <div class="col-10">
+                                    <div class="input-group-desc">
+                                        <select  class="input--style-5" name="genre">
+                                            <option value='Homme.1' selected="selected">Homme</option>
+                                            <option value='Femme.2'>Femme</option>
+                                        </select>
+                                        <label class="label--desc">Titre</label>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="input-group-desc">
+                                        <input class="input--style-5" type="number" name="genreCoeff"/>
+                                        <label class="label--desc" value="2">Coefficient</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row m-b-55">
+                        <div class="name">Situation Matrimonial</div>
+                        <div class="value">
+                            <div class="row row-refine">
+                                <div class="col-10">
+                                    <div class="input-group-desc">
+                                        <select  class="input--style-5" name="situation">
+                                            <option value='Single.1' selected="selected">Single</option>
+                                            <option value='Married.2'>Married</option>
+                                        </select>
+                                        <label class="label--desc">Titre</label>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="input-group-desc">
+                                        <input class="input--style-5" type="number" name="situationCoeff"/>
+                                        <label class="label--desc" value="2">Coefficient</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    <div class="form-row m-b-55">
+                        <div class="name">Experience</div>
+                        <div class="value">
+                            <div class="row row-refine">
+                                <div class="col-10">
+                                    <div class="input-group-desc">
+                                        <select  class="input--style-5" name="experience">
+                                            <option value='aucun.1'>aucun</option>
+                                            <option value='+1ans.2' selected="selected">+ 1 ans</option>
+                                            <option value='+2ans.3'>+ 2 ans</option>
+                                            <option value='+4ans.4'>+ 5 ans</option>
+                                            <option value='+10ans.5'>+ 10 ans</option>
+                                        </select>
+                                        <label class="label--desc">Titre</label>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="input-group-desc">
+                                        <input class="input--style-5" type="number" name="experienceCoeff"/>
+                                        <label class="label--desc" value="2">Coefficient</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row m-b-55">
+                        <div class="name">Proximiter</div>
+                        <div class="value">
+                            <div class="row row-refine">
+                                <div class="col-10">
+                                    <div class="input-group-desc">
+                                        <select  class="input--style-5" name="proximite">
+                                            <option value='+10km.1' selected="selected">+ 10 km</option>
+                                            <option value='-10km.2'>- 10 km</option>
+                                            <option value='-5km.3'>- 5 km</option>
+                                            <option value='-4km.4'>- 1 km</option>
+                                            <option value='aucun.5'>aucun</option>
+                                        </select>
+                                        <label class="label--desc">Titre</label>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="input-group-desc">
+                                        <input class="input--style-5" type="number" name="proximiteCoeff"/>
+                                        <label class="label--desc" value="2">Coefficient</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        
+                        <div>
+                            <button class="bouton" type="submit">Register</button>
+                        </div>
+                    </form>
+            </div>
+            </div>
+    </body>

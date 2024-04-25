@@ -1,0 +1,405 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\RessourceHumaine.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RessourceHumaine.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\css\\Conge.css",
+      "PackagePath": "staticwebassets\\css\\Conge.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\css\\CreateQuestion.css",
+      "PackagePath": "staticwebassets\\css\\CreateQuestion.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\css\\Header.css",
+      "PackagePath": "staticwebassets\\css\\Header.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\css\\ListeEntretien.css",
+      "PackagePath": "staticwebassets\\css\\ListeEntretien.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\css\\ProfilPersonnel.css",
+      "PackagePath": "staticwebassets\\css\\ProfilPersonnel.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\css\\daterange\\.gitignore",
+      "PackagePath": "staticwebassets\\css\\daterange\\.gitignore"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\css\\daterange\\README.md",
+      "PackagePath": "staticwebassets\\css\\daterange\\README.md"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\css\\daterange\\bower.json",
+      "PackagePath": "staticwebassets\\css\\daterange\\bower.json"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\css\\daterange\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\css\\daterange\\daterangepicker.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\css\\daterange\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\css\\daterange\\daterangepicker.js"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\css\\daterange\\example\\amd\\index.html",
+      "PackagePath": "staticwebassets\\css\\daterange\\example\\amd\\index.html"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\css\\daterange\\example\\amd\\main.js",
+      "PackagePath": "staticwebassets\\css\\daterange\\example\\amd\\main.js"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\css\\daterange\\example\\amd\\require.js",
+      "PackagePath": "staticwebassets\\css\\daterange\\example\\amd\\require.js"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\css\\daterange\\example\\browserify\\README.md",
+      "PackagePath": "staticwebassets\\css\\daterange\\example\\browserify\\README.md"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\css\\daterange\\example\\browserify\\bundle.js",
+      "PackagePath": "staticwebassets\\css\\daterange\\example\\browserify\\bundle.js"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\css\\daterange\\example\\browserify\\index.html",
+      "PackagePath": "staticwebassets\\css\\daterange\\example\\browserify\\index.html"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\css\\daterange\\example\\browserify\\main.js",
+      "PackagePath": "staticwebassets\\css\\daterange\\example\\browserify\\main.js"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\css\\daterange\\moment.min.js",
+      "PackagePath": "staticwebassets\\css\\daterange\\moment.min.js"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\css\\daterange\\package.js",
+      "PackagePath": "staticwebassets\\css\\daterange\\package.js"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\css\\daterange\\package.json",
+      "PackagePath": "staticwebassets\\css\\daterange\\package.json"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\css\\daterange\\website\\index.html",
+      "PackagePath": "staticwebassets\\css\\daterange\\website\\index.html"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\css\\daterange\\website\\website.css",
+      "PackagePath": "staticwebassets\\css\\daterange\\website\\website.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\css\\daterange\\website\\website.js",
+      "PackagePath": "staticwebassets\\css\\daterange\\website\\website.js"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\css\\employerCss\\Header.css",
+      "PackagePath": "staticwebassets\\css\\employerCss\\Header.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\css\\employerCss\\ListeEmployer.css",
+      "PackagePath": "staticwebassets\\css\\employerCss\\ListeEmployer.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\css\\employerCss\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\employerCss\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\css\\needs.css",
+      "PackagePath": "staticwebassets\\css\\needs.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\image\\change.png",
+      "PackagePath": "staticwebassets\\image\\change.png"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\image\\delete.png",
+      "PackagePath": "staticwebassets\\image\\delete.png"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\image\\view.png",
+      "PackagePath": "staticwebassets\\image\\view.png"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\js\\EtatDePaie\\ajaxEtatDePaie.js",
+      "PackagePath": "staticwebassets\\js\\EtatDePaie\\ajaxEtatDePaie.js"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\js\\employerJs\\ajaxTrixAndSearch.js",
+      "PackagePath": "staticwebassets\\js\\employerJs\\ajaxTrixAndSearch.js"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\js\\employerJs\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\employerJs\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\js\\ficheDePaie\\ajaxFicheDePaie copy.js",
+      "PackagePath": "staticwebassets\\js\\ficheDePaie\\ajaxFicheDePaie copy.js"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jquery.js"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\judi\\JUDI Dossier D\\ADATA CLE JUDI\\IT University\\Semestre 5\\Mr Tovo RH\\Fiche de paix\\Rh-main\\Rh-main\\RH\\RH\\AdminSide\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.RessourceHumaine.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.RessourceHumaine.props",
+      "PackagePath": "build\\RessourceHumaine.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.RessourceHumaine.props",
+      "PackagePath": "buildMultiTargeting\\RessourceHumaine.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.RessourceHumaine.props",
+      "PackagePath": "buildTransitive\\RessourceHumaine.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

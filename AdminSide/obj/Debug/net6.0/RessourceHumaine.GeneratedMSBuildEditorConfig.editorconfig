@@ -1,0 +1,112 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RessourceHumaine
+build_property.RootNamespace = RessourceHumaine
+build_property.ProjectDir = /home/mano/Desktop/AdminSide/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/mano/Desktop/AdminSide
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/mano/Desktop/AdminSide/Views/Besoin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmVzb2luL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mano/Desktop/AdminSide/Views/Candidat/formulaireEmbauche.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FuZGlkYXQvZm9ybXVsYWlyZUVtYmF1Y2hlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mano/Desktop/AdminSide/Views/Candidat/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FuZGlkYXQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mano/Desktop/AdminSide/Views/Coefficient/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29lZmZpY2llbnQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mano/Desktop/AdminSide/Views/CreateQR/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3JlYXRlUVIvaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mano/Desktop/AdminSide/Views/DemandeConge/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVtYW5kZUNvbmdlL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mano/Desktop/AdminSide/Views/DemandeConge/PrevisionConge.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVtYW5kZUNvbmdlL1ByZXZpc2lvbkNvbmdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mano/Desktop/AdminSide/Views/DemandeConge/Validation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVtYW5kZUNvbmdlL1ZhbGlkYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mano/Desktop/AdminSide/Views/DemandeConge/Validation2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVtYW5kZUNvbmdlL1ZhbGlkYXRpb24yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mano/Desktop/AdminSide/Views/Employe/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZS9pbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mano/Desktop/AdminSide/Views/Employer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mano/Desktop/AdminSide/Views/Employer/Profil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZXIvUHJvZmlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mano/Desktop/AdminSide/Views/Employer/ProfilConge.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZXIvUHJvZmlsQ29uZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mano/Desktop/AdminSide/Views/Entretien/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW50cmV0aWVuL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mano/Desktop/AdminSide/Views/FicheDePaie/AllFiche.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmljaGVEZVBhaWUvQWxsRmljaGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mano/Desktop/AdminSide/Views/FicheDePaie/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmljaGVEZVBhaWUvaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mano/Desktop/AdminSide/Views/FicheDePaie/insertionFicheDePaix.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmljaGVEZVBhaWUvaW5zZXJ0aW9uRmljaGVEZVBhaXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mano/Desktop/AdminSide/Views/Question/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUXVlc3Rpb24vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mano/Desktop/AdminSide/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mano/Desktop/AdminSide/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mano/Desktop/AdminSide/Views/UpdateFDP/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXBkYXRlRkRQL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mano/Desktop/AdminSide/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mano/Desktop/AdminSide/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mano/Desktop/AdminSide/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-lrd2q80kne

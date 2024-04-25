@@ -1,0 +1,41 @@
+@model List<QuestionModel>
+
+
+<link rel="stylesheet" href="~/css/needs.css" />
+<link rel="stylesheet" href="~/css/CreateQuestion.css" />
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    
+<body>
+    <div class="main">
+            <div className="border"></div>
+            <form method="POST" action="/QCMBesoin/Insert">
+                <div class="form-row">
+                    <div class="name">Choisi entre les questions existant 
+                        <span style="font-size: 14px;color: grey;margin: 0 5px;">ou</span>
+                        <span><a style="text-decoration: none;color: #bc40df;" href="/CreateQR/Index">Cree d'autre question</a></span>
+                    </div>
+
+                  <div class="value">
+                    <div class="input-group">
+                        <ul>
+                            @foreach (var question in Model)
+                            {
+                                <li>
+                                    <input type="checkbox" name="selectedQuestions" value="@question.ID_Question" />
+                                    @question.Question
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>             
+                </div>
+                
+                <div>
+                    <button class="bouton" type="submit">Register</button>
+                </div>
+                
+            </form>
+        </div>
+</body>

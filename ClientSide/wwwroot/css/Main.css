@@ -1,0 +1,81 @@
+.main {
+    height: 100vh; /* Hauteur de 100% de la hauteur de la fenêtre (écran) */
+    width: 100%; /* Largeur de 80% de la fenêtre */
+    margin: 0 auto; /* Pour centrer horizontalement */
+    padding: 20px; /* Espacement intérieur */
+    display: flex; /* Utilisation de flexbox pour le positionnement */
+    height: 100vh;
+}
+
+.left-div div{
+    display: inline-block;
+}
+
+.right-offre{
+    overflow-y: scroll;
+}
+
+.left-div {
+    flex: 70%; /* Occupe 35% de l'espace disponible */
+    height: 100vh;
+    text-align: left;
+    overflow-y: scroll;
+    border: 0.5px solid rgb(216, 216, 216);
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+/* Div de droite (65%) */
+.right-div {
+    flex: 30%; /* Occupe 65% de l'espace disponible */
+    height: 100vh;
+    text-align: left;
+    border: 0.5px solid rgb(216, 216, 216);
+    border-radius: 5px;
+    
+}
+
+.menu {
+    height: 100vh; /* Hauteur de 100% de la hauteur de la fenêtre (écran) */
+    width: 70%; /* Largeur de 80% de la fenêtre */
+    margin: 0 auto; /* Pour centrer horizontalement */
+    padding: 20px; /* Espacement intérieur */
+    display: flex; /* Utilisation de flexbox pour le positionnement */
+    height: 100vh;
+}
+
+.left-div {
+    flex: 42%; /* Occupe 35% de l'espace disponible */
+    padding: 10px; /* Espacement intérieur */
+    height: 100vh;
+    text-align: left;
+    overflow-y: scroll;
+    direction: rtl;
+    padding-left: 25px;
+}
+
+.left-div::-webkit-scrollbar {
+    display: block;
+    height: 10px;
+    width: 50px;
+}
+/* Div de droite (65%) */
+.right-div {
+    flex: 58%; 
+    height: 100vh;
+    text-align: left;
+}
+.details{
+    height: 100%;
+    width: 98%;
+    border-radius: 10px;
+    margin: 0 auto; /* Pour centrer horizontalement */
+}
+.details div{
+    margin-left: 15px;
+}
+li a{
+    text-decoration: none;
+    color: grey;
+    margin-bottom: 10px;
+}

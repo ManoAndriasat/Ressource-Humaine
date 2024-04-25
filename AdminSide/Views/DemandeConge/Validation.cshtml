@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="~/css/needs.css" />
+<link rel="stylesheet" href="~/css/ListeEntretien.css" />
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<style>
+tr{
+   height:20px;
+}
+</style>
+<body>
+    <div class="ListeCandidat">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Matricule</th>
+                    <th>Date de Départ</th>
+                    <th>Date de Retour</th>
+                    <th>ID Type Congé</th>
+                    <th>Motif</th>
+                    <th>Valider</th>
+                    <th>Refuser</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var demandeConge in ViewBag.ListeDemandeConge)
+                {
+                    <tr>
+                        <td>@demandeConge.ID_Conge</td>
+                        <td>@demandeConge.Matricule</td>
+                        <td>@demandeConge.DateDepart.ToString("yyyy-MM-dd")</td>
+                        <td>@demandeConge.DateRetour.ToString("yyyy-MM-dd")</td>
+                        <td>@demandeConge.ID_TypeConge</td>
+                        <td>@demandeConge.Motif</td>
+                        <td><a href="/DemandeConge/Valider?id=@demandeConge.ID_Conge" class="btnEntretien" style="Background:green;color:white;padding: 10px;">Valider</a></td>
+                        <td><a href="/DemandeConge/Refuser?id=@demandeConge.ID_Conge" class="btnEntretien" style="Background:red;color:white;padding: 10px;">Refuser</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>

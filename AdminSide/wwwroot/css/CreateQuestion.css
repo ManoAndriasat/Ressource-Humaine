@@ -1,0 +1,22 @@
+ul {
+    padding: 0; 
+    height: fit-content;
+    flex-direction: column;
+    margin-left: 20%;
+  }
+ul li {
+    display: flex; /* Affiche les éléments de liste sur la même ligne */
+    margin-right: 10px; 
+    padding: 5px;
+    margin-left: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+ 
+ul input[type="checkbox"] {
+    margin-right: 10px;
+  }
+form p{
+    font-weight: bold;
+  }

@@ -1,0 +1,36 @@
+.row .title{
+    height: 40px;
+    background-color: rgb(185, 185, 185);
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.date-conge{
+    display:  flex;
+    
+}
+
+.date-conge div{
+    width: 60px;
+    height: 70px;
+    margin: auto 10px; 
+    text-align: center;
+    border-top:solid 10px rgb(228, 47, 47);
+    background: rgb(253, 255, 213);
+}
+
+.date-conge div p{
+    margin-bottom: -5px;
+}
+
+.date-nb{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.date-border{
+    width: 60px;
+
+}

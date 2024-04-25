@@ -1,0 +1,92 @@
+
+@model List<BesoinModel>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="~/css/Header.css">
+        <link rel="stylesheet" href="~/css/Main.css">
+        <link rel="stylesheet" href="~/css/Offre.css">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="bootstrap.min.js"></script>
+        <title>Document</title>
+    </head>
+    
+
+    <body>
+        <div class="main">
+      <div class="left-div">
+        <p></p>
+        <p>
+       <span>Liste Emploi -</span> emplois offre emploi
+   
+
+        </p>
+        <hr class="espace" />
+
+      @foreach (var besoin in ViewBag.AllBesoins)
+      {
+          <div class="job">
+              <div>
+                  <p></p>
+                  <a href="/Offre/Details?id=@besoin.ID_Besoin" class="job-title">@besoin.Titre</a>
+                  <p class="entreprise">@besoin.Service</p>
+                  <p class="job-info">
+                      <span>@besoin.Type</span>
+                      <span>@besoin.HeureParJour h/j</span>
+                      <span>@besoin.JourParSemaine j/s</span>
+                  </p>
+                  <ul class="job-info-details">
+                      <li>@besoin.Titre</li>
+                      <li>@besoin.Region</li>
+                      <li><a href="#">plus...</a></li>
+                  </ul>
+              </div>
+          </div>
+      }
+      </div>
+
+
+      <div class="right-div right-offre" style="overflow-y:scroll;">
+        @if (ViewBag.BesoinDetails != null)
+        {
+        <div class="details">
+            <div>
+              <p></p>
+              <a href="#" class="job-title" style="marginTop:20px" >@ViewBag.BesoinDetails.Titre</a>
+              <p class="entreprise">@ViewBag.BesoinDetails.Service</p>
+              <p class="job-info">
+                <span>@ViewBag.BesoinDetails.Type</span>
+                <span>@ViewBag.BesoinDetails.HeureParJour  h/j</span>
+                <span>@ViewBag.BesoinDetails.JourParSemaine j/s</span>
+              </p>
+              <p class="postuler"><a href="Cin/Index">Postuler pour ce post</a></p>
+
+              <hr class="espace"/>
+        
+              <p class="job-title2" style="marginTop:20px" >Description</p>
+               <ul class="job-info-details">
+                <li>@ViewBag.BesoinDetails.Description</li>
+              </ul>
+              
+              @foreach (var Coeff in ViewBag.AllCoefficients)
+              {
+              <p class="job-title2" style="marginTop:20px" >@Coeff.Titre</p>
+              <ul class="job-info-details">
+                <li>@Coeff.ValueTitre</li>
+              </ul>
+              }
+
+            </div>
+          </div>
+          }
+      </div>
+
+    </div>
+    </body>
+
+
+</html>

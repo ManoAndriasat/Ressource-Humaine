@@ -1,0 +1,78 @@
+﻿@using Microsoft.AspNetCore.Http
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - RessourceHumaine</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Header.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/RessourceHumaine.styles.css" asp-append-version="true" />
+      
+</head>
+<body>
+      @{
+          var userSession = Context.Session.GetString("user");
+      }
+    <header class="header-two-bars">    
+        <div class="header-first-bar">
+          <div class="header-limiter">
+            <h2 class='logo'><a href="#">WE-<span>RECRUTE</span></a></h2>
+            <nav>
+              <a href="/Login/Index?user=1"><p>RH</p></a>
+              <a href="/Login/Index?user=10"><p>DG</p></a>
+            </nav>
+            <a href="#" class="logout-button">Logout</a>
+             @if (userSession != null && userSession == "10")
+              {
+                <a href="#" class="logout-button">User : DG</a>
+              }
+               @if (userSession != null && userSession == "1")
+              {
+                 <a href="#" class="logout-button">User : RH</a>
+              }
+          </div>
+        </div>
+        
+        <div class="header-second-bar">
+          <div class="header-limiter">
+            <nav>
+                <a href="/CreateQR/Index"><i class="fa fa-file-text"></i>Create Question</a>
+                <a href="/Besoin/Index"><i class="fa fa-group"></i>Needs</a>
+                <a href="/Entretien/Index"><i class="fa fa-cogs"></i>Entretien</a>
+                <a href="/Employer/listEmployer"><i class="fa fa-cogs"></i>Liste Employer</a>
+                <a href="/Candidat/Index"><i class="fa fa-cogs"></i>Embaucher</a>
+                <a href="/DemandeConge/Index"><i class="fa fa-cogs"></i>DemandeConge</a>
+                <a href="/DemandeConge/Validation"><i class="fa fa-cogs"></i>ValidationConge</a>
+                <a href="/DemandeConge/PrevisionConge"><i class="fa fa-cogs"></i>PrevisionConge</a>
+                <a href="/Employe/formSalaireBase"><i class="fa fa-cogs"></i>GestionSalaire</a>
+                <a href="/UpdateFDP/Index"><i class="fa fa-cogs"></i>Modifier Fiche de paie</a>
+                <a href="/FicheDePaie/tableauFicheDePaie"><i class="fa fa-cogs"></i>Fiche de paie</a>
+                <a href="/FicheDePaie/AllFiche"><i class="fa fa-cogs"></i>Etat de paie</a>
+                @if (userSession != null && userSession == "10")
+                {
+                    <a href="/DemandeConge/Validation2"><i class="fa fa-cogs"></i> Validation Directeur</a>
+                }
+
+              </nav>
+          </div>
+        </div>
+    </header>
+    
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - RessourceHumaine - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,53 @@
+
+
+<link rel="stylesheet" href="~/css/needs.css" />
+<link rel="stylesheet" href="~/css/CreateQuestion.css" />
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    
+<body>
+    <div class="main">
+            <form method="POST" style="margin-top: 20px;" action="/CreateQR/Insert">
+
+                    <div class="form-row">
+                        <div class="name">Question</div>
+                        <div class="value">
+                            <div class="input-group">
+                                <input class="input--style-5" type="text" name="question"/>
+                            </div>
+                        </div>
+                    </div>
+                 
+                    <div class="form-row">
+                        <div class="name">Reponse (5 max)</div>
+                        <div class="value">
+                            <div class="input-group">
+                                <input class="input--style-5" type="text" name="R1" value="R1" placeholder="Response 1"/>
+                                <input class="input--style-5" type="text" name="R2" value="R2" placeholder="Response 2"/>
+                                <input class="input--style-5" type="text" name="R3" value="R3" placeholder="Response 3"/>
+                                <input class="input--style-5" type="text" name="R4" value="R4" placeholder="Response 4"/>
+                                <input class="input--style-5" type="text" name="R5" value="R5" placeholder="Response 5"/>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="form-row">
+                        <div class="name">Les bonnes reponses</div>
+                        <div class="value">
+                            <div class="input-group">
+                                <input class="input--style-5" type="number" name="BR"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div>
+                        <button class="bouton" type="submit">Register</button>
+                    </div>
+
+                </form>
+        </div>
+        </div>
+</body>

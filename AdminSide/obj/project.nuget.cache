@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "8bG0nqUBQXYVsKo0IcwXgybufrZDZmNp0MuvqYMIlmv1hJxqsKqz0XHYHCesLbIm+tPXDGRYapDPQXEbEGElgg==",
+  "success": true,
+  "projectFilePath": "/home/mano/Desktop/AdminSide/RessourceHumaine.csproj",
+  "expectedPackageFiles": [
+    "/home/mano/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "/home/mano/.nuget/packages/npgsql/7.0.6/npgsql.7.0.6.nupkg.sha512",
+    "/home/mano/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/home/mano/.nuget/packages/microsoft.netcore.app.ref/6.0.8/microsoft.netcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/mano/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/mano/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.8/microsoft.netcore.app.host.linux-x64.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

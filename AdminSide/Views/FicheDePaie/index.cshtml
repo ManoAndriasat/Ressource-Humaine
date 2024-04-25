@@ -1,0 +1,249 @@
+@model FicheDePaie
+<style>
+    .menu{
+        background-color: rgb(236, 236, 236);
+    }
+</style>
+<body>
+    <h1 style="margin-left:10%">Fiche de paie</h1>
+    <div class="row">
+        <div class="col-md-3 menu">
+            <br>
+            <p> inserer un nouveau fiche de paie ? <a class="btn btn-link" href="/FicheDePaie/insertion"><i class="fa fa-cogs"></i>Oui inserer</a></p>
+            <h2>Choisir l'employer</h2>
+            <select id="listemployer" onchange="getDate()" class="form-select" size="3" aria-label="size 3 select example">
+                @foreach(var employer in Model.employers) {
+                    <option value="@employer.Matricule">@employer.FirstName @employer.LastName</option>
+                }
+            </select>
+            <br>
+            <br>
+            <select id="date_fiche" onchange="validation()" class="form-select" size="3" aria-label="size 3 select example">
+            </select>
+            <br>
+            <table class="table table-hover">
+                <tr>
+                    <th>Nom et prenom</th>
+                    <td id="nom_prenom"></td>
+                </tr>
+                <tr>
+                    <th>Matricule</th>
+                    <td id="matricule"></td>
+                </tr>
+                <tr>
+                    <th>Fonction</th>
+                    <td id="fonction"></td>
+                </tr>
+            </table>
+            <br>
+            <table class="table table-hover">
+                <tr>
+                    <th></th>
+                    <th>Valeur</th>
+                </tr>
+                <tr>
+                    <th>Salaire de base</th>
+                    <td id="salaire_de_base"></td>
+                </tr>
+                <tr>
+                    <th>Taux journaliers</th>
+                    <td id="taux_journaliers"></td>
+                </tr>
+                <tr>
+                    <th>Taux horaire</th>
+                    <td id="taux_horaire"></td>
+                </tr>
+                <tr>
+                    <th>Date debut</th>
+                    <td id="date_debut"></td>
+                </tr>
+                <tr>
+                    <th>Date fin</th>
+                    <td id="date_fin"></td>
+                </tr>
+                <tr>
+                    <th>Montant du salaire du date</th>
+                    <td id="montant_du_salaire_du_date"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-md-9">
+            <table class="table table-hover">
+            <tr>
+                <th>Designation</th>
+                <th>Nombre</th>
+                <th>Taux</th>
+                <th>Montant</th>
+            </tr>
+            <tr>
+                <td>Salaire</td>
+                <td>1 mois</td>
+                <td id="salaire_taux"></td>
+                <td id="salaire_montant"></td>
+            </tr>
+            <tr>
+                <td>Absence deductible</td>
+                <td id="absence_nombre"></td>
+                <td id="absence_taux"></td>
+                <td id="absence_montant"></td>
+            </tr>
+            <tr>
+                <td>Primes de rendement</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Primes d'ancienneté</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Heures supplémentaires majorées de 30%</td>
+                <td id="sup_30_nombre"></td>
+                <td id="sup_30_taux"></td>
+                <td id="sup_30_montant"></td>
+            </tr>
+            <tr>
+                <td>Heures supplémentaires majorées de 40%</td>
+                <td id="sup_40_nombre"></td>
+                <td id="sup_40_taux"></td>
+                <td id="sup_40_montant"></td>
+            </tr>
+            <tr>
+                <td>Heures supplémentaires majorées de 50%</td>
+                <td id="sup_50_nombre"></td>
+                <td id="sup_50_taux"></td>
+                <td id="sup_50_montant"></td>
+            </tr>
+            <tr>
+                <td>Heures supplémentaires majorées de 100%</td>
+                <td id="sup_100_nombre"></td>
+                <td id="sup_100_taux"></td>
+                <td id="sup_100_montant"></td>
+            </tr>
+            <tr>
+                <td>Majoration pour heures de nuit</td>
+                <td id="maj_heure_nuit_nombre"></td>
+                <td id="maj_heure_nuit_taux"></td>
+                <td id="maj_heure_nuit_montant"></td>
+            </tr>
+            <tr>
+                <td>Primes diverses</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Rappels sur période antérieure</td>
+                <td id="rappel_per_ant_nombre"></td>
+                <td id="rappel_per_ant_taux"></td>
+                <td id="rappel_per_ant_montant"></td>
+            </tr>
+            <tr>
+                <td>Droits de congés</td>
+                <td id="droit_conge_nombre"></td>
+                <td id="droit_conge_taux"></td>
+                <td id="droit_conge_montant"></td>
+            </tr>
+            <tr>
+                <td>Droits de préavis</td>
+                <td id="droit_preavis_nombre"></td>
+                <td id="droit_preavis_taux"></td>
+                <td id="droit_preavis_montant"></td>
+            </tr>
+            <tr>
+                <td>Indemnités de licenciement</td>
+                <td id="ind_licenc_nombre"></td>
+                <td id="ind_licenc_taux"></td>
+                <td id="ind_licenc_montant"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <th> Salaire brut</th>
+                <th id="nombre_salaire_brut"></th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <th>  Montant imposable</th>
+                <th id="montant_impossable"></th>
+            </tr>
+        </table>
+        <br>
+        <table class="table table-hover">
+            <tr>
+                <th>Retenue CNaPS 1%</th>
+                <td></td>
+                <td id="retenue_cnaps" ></td>
+            </tr>
+            <tr>
+                <th>Retenue sanitaire</td>
+                <td></td>
+                <td id="retenue_sanitaire"></td>
+            </tr>
+           
+            <tr>
+                <th>Tranche IRSA I DE 350 0001 à 400 000</td>
+                <td>5%</td>
+                <td id="tranche_5"></td>
+            </tr>
+            <tr>
+                <th>Tranche IRSA I DE 400 0001 à 500 000</td>
+                <td>10%</td>
+                <td id="tranche_10"></td>
+            </tr>
+            <tr>
+                <th>Tranche IRSA I DE 500 001 à 600 000</td>
+                <td>15%</td>
+                <td id="tranche_15"></td>
+            </tr>
+            <tr>
+                <th>Tranche IRSA SUP 600 0000</td>
+                <td>20%</td>
+                <td id="tranche_20"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Total IRSA</th>
+                <td></td>
+                <th id="total_irsa"></th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <th>Total des retenues</th>
+                <th id="total_retenue"></th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <th>Net a payer</th>
+                <th id="net_payer"></th>
+            </tr>
+
+        </div>
+    </div>
+    
+</body>
+<script src="~/js/ficheDePaie/ajaxFicheDePaie copy.js"></script>
+

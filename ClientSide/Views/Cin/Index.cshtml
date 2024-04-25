@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="~/css/Header.css">
+        <link rel="stylesheet" href="~/css/Main.css">
+        <link rel="stylesheet" href="~/css/CIN.css">
+    <title>Document</title>
+    <script>
+        function handleButtonClick() {
+            document.getElementById('fileID').click();
+        }
+
+        function handleFileChange(e) {
+            const fileName = e.target.files[0].name;
+            const filedata = `
+                <form action="" method="post">
+                    <div class="form">
+                        <h4>${fileName}</h4>
+                        <button class="btn">Upload</button>
+                    </div>
+                </form>`;
+            document.getElementById('dropArea').innerHTML = filedata;
+        }
+    </script>
+</head>
+
+
+<body>
+<div class="main cin">
+    <div class="left-div left-cin">
+        <div class=""></div>
+        <p style="font-weight: bold;">Upload mon CV</p>
+        <p>Formats acceptés : fichier .docx, .pdf, .jpeg, .jpg, .png. Taille max: 5Mo</p>
+        <div class="drop_box" id="dropArea">
+            <header>
+                <h4>Select File here</h4>
+            </header>
+            <p>Files Supported: PDF, TEXT, DOC , DOCX</p>
+            <input
+                type="file"
+                hidden
+                accept=".doc,.docx,.pdf"
+                id="fileID"
+                style="display: none;"
+                onchange="handleFileChange(event)"
+            />
+
+            <button class="btn" onclick="handleButtonClick()">Choose File</button>
+        </div>
+    </div>
+
+    <div class="right-div" style="overflow-y:scroll;">
+        <div class="border"></div>
+        <div class="container" style="padding:40px">
+            <form method="POST" action="/Candidat/Register">
+                <div class="form-row m-b-55">
+                    <div class="name">Name</div>
+                    <div class="value">
+                        <div class="row row-space">
+                            <div class="col-6">
+                                <div class="input-group-desc">
+                                    <input class="input--style-5" type="text" value="Mano" name="FirstName"/>
+                                    <label class="label--desc">first name</label>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="input-group-desc">
+                                    <input class="input--style-5" type="text" value="Andriasat" name="LastName"/>
+                                    <label class="label--desc">last name</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="form-row m-b-55">
+                        <div class="name">Genre</div>
+                        <div class="value">
+                            <div class="row row-refine">
+                                <div class="col-12">
+                                    <div class="input-group-desc">
+                                        <select  class="input--style-5" name="Genre">
+                                            <option value='Homme' selected="selected">Homme</option>
+                                            <option value='Femme'>Femme</option>
+                                        </select>
+                                        <label class="label--desc">Titre</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <div class="form-row">
+                    <div class="name">Email</div>
+                    <div class="value">
+                        <div class="input-group">
+                            <input class="input--style-5" value="mano@gmail.com" type="email" name="Email"/>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                    <div class="form-row m-b-55">
+                        <div class="name">Situation Matrimonial</div>
+                        <div class="value">
+                            <div class="row row-refine">
+                                <div class="col-12">
+                                    <div class="input-group-desc">
+                                        <select  class="input--style-5" name="Situation">
+                                            <option value='Single' selected="selected">Single</option>
+                                            <option value='Married'>Married</option>
+                                        </select>
+                                        <label class="label--desc">Titre</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    <div class="form-row m-b-55">
+                        <div class="name">Experience</div>
+                        <div class="value">
+                            <div class="row row-refine">
+                                <div class="col-12">
+                                    <div class="input-group-desc">
+                                        <select  class="input--style-5" name="Experience">
+                                            <option value='aucun'>aucun</option>
+                                            <option value='+1ans' selected="selected">+ 1 ans</option>
+                                            <option value='+2ans'>+ 2 ans</option>
+                                            <option value='+4ans'>+ 5 ans</option>
+                                            <option value='+10ans'>+ 10 ans</option>
+                                        </select>
+                                        <label class="label--desc">Titre</label>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row m-b-55">
+                        <div class="name">Proximiter</div>
+                        <div class="value">
+                            <div class="row row-refine">
+                                <div class="col-12">
+                                    <div class="input-group-desc">
+                                        <select  class="input--style-5" name="Proximite">
+                                            <option value='+10km' selected="selected">+ 10 km</option>
+                                            <option value='-10km'>- 10 km</option>
+                                            <option value='-5km'>- 5 km</option>
+                                            <option value='-4km'>- 1 km</option>
+                                            <option value='aucun'>aucun</option>
+                                        </select>
+                                        <label class="label--desc">Titre</label>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                        </div>
+                    </div>
+
+             
+                    <div class="form-row m-b-55">
+                    <div class="name">Diplome</div>
+                    <div class="value">
+                        <div class="row row-space">
+                            <div class="col-6">
+                                 <div class="input-group-desc">
+                                        <select  class="input--style-5" name="DiplomeNiveau">
+                                            <option value='BACC' selected="selected">BACC</option>
+                                            <option value='License'>License</option>
+                                            <option value='Master'>Master</option>
+                                            <option value='Doctorat'>Doctorat</option>
+                                        </select>
+                                        <label class="label--desc">Niveau</label>
+                                    </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="input-group-desc">
+                                    <input class="input--style-5" type="text" value="Informatique" name="DiplomeFiliere"/>
+                                    <label class="label--desc">Filiere</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button class="btn btn--radius-2 btn--red" type="submit">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

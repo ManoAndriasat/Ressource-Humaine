@@ -1,0 +1,163 @@
+
+.right-div{
+    font-size: 14px;
+}
+
+.cin{
+    width: 100%;
+}
+
+.drop_box {
+width: 100%;
+  margin: 10px 10px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 3px dotted #a3a3a3;
+  border-radius: 5px;
+  text-align: center;
+}
+.drop_box:hover{
+  
+}
+
+.drop_box h4 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #2e2e2e;
+}
+.border{
+    height: 40px;
+    width: 100%;
+    background-color: #2e2e2e;
+    border-top-right-radius:5px ;
+    border-top-left-radius:5px ;
+    border: solid;
+}
+
+/* .left-cin{
+    height: max-content;
+    padding-bottom: 20px;
+} */
+
+input[type="radio"] {
+margin-left: 10px;
+}
+
+.drop_box p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  color: #a3a3a3;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #005af0;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+}
+
+.btn:hover{
+  text-decoration: none;
+  background-color: rgb(95, 149, 241);
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+}
+.form input {
+  margin: 10px 0;
+  width: 100%;
+  background-color: #e2e2e2;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+
+/* Style de base pour le formulaire */
+form {
+  width: 90%; /* Largeur du formulaire */
+  margin: 0 auto; /* Centrer le formulaire horizontalement */
+  border-radius: 5px;
+}
+
+/* Style des champs de texte */
+.input--style-5 {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+/* Style des labels */
+.label--desc {
+  font-size: 12px;
+  color: #888;
+}
+
+/* Style des sélecteurs */
+.select--no-search select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+/* Style des boutons radio */
+.radio-container {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+.checkmark {
+  position: relative;
+  top: 1px;
+  border: 1px solid #888;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+/* Style du bouton d'envoi */
+.btn--radius-2 {
+  width: 100%;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3ce783;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+/* Style du bouton d'envoi au survol */
+.btn--radius-2:hover {
+  background-color: #0ee768;
+}
+
+/* Style des étiquettes "Name", "Company", etc. */
+.name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Style des conteneurs "value" */
+.value {
+  margin-bottom: 20px;
+}
+

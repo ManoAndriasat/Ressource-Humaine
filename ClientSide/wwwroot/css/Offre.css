@@ -1,0 +1,118 @@
+/* styles.css */
+.left-div {
+    /* Styles pour left-div */
+  }
+  
+  .left-div p {
+    margin-left: 10px;
+    color: rgb(136, 136, 136);
+    font-size: 14px;
+  }
+  
+  .left-div span {
+    font-size: 14px;
+    color: rgb(0, 132, 255);
+    font-weight: bold;
+  }
+  
+  .left-div hr {
+    color: rgb(201, 201, 201);
+    margin: 10px;
+    margin-bottom: 20px;
+    border: none;
+    height: 1px;
+    background: rgb(216, 216, 216);
+  }
+  
+.job{
+    height: 250px;
+    width: 98%;
+    border-radius: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.164);
+    margin: 0 auto; /* Pour centrer horizontalement */
+    margin-bottom: 20px;
+    direction: rtl;
+}
+
+.job:hover{
+  border: 0.8px solid rgba(0, 0, 0, 0.418);
+
+}
+
+.job-title2{
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+padding-top: 10px;
+}
+
+.job-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  padding-top: 10px;
+}
+.job-title:hover{
+    text-decoration: underline;
+}
+.job div{
+    margin-left: 15px;
+}
+
+.entreprise{
+    margin-top: 5px;
+    color: rgb(133, 133, 133);
+}
+.job-info span{
+    background-color: rgb(235, 235, 235);
+    color: rgb(51, 51, 51);
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 5px;
+}
+.job-info-details li{
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: grey;
+    direction: ltr;	
+}
+.job-info-details {
+    margin-left: 5px;
+}
+.postuler a{
+    font-size: 14px;
+    background-color: rgb(0, 119, 255);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.postuler{
+    text-align: right;
+    margin-right: 10px;
+
+}
+  .left-div .job {
+    /* Styles pour la classe job */
+  }
+  
+  .left-div .job-title {
+    margin-top: 20px;
+  }
+  
+  .left-div .entreprise {
+    /* Styles pour entreprise */
+  }
+  
+  .left-div .job-info {
+    /* Styles pour job-info */
+  }
+  
+  .left-div .job-info-details {
+    /* Styles pour job-info-details */
+  }
+  
+  /* Ajoutez d'autres styles au besoin */
+  

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Ajoutez ici vos styles CSS */
+        select, input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        form {
+            width: 70%;
+            padding: 0 auto;
+            margin:0 auto;
+        }
+        /* Ajoutez d'autres styles CSS au besoin */
+    </style>
+</head>
+<body>
+    <form action="insertionParametreFicheDePaie" method="post">
+        <p>Employer :
+            <select name="employer">
+                @foreach(var employer in Model) {
+                    <option value="@employer.Matricule">@employer.FirstName @employer.LastName</option>
+                }
+            </select>
+        </p>
+        <p>Date début <input type="date" name="dateDebut" value="2023-10-01"/></p>
+        <p>Date fin <input type="date" name="dateFin" value="2023-10-31"/></p>
+        <p>Nombre de jours : <input type="number" name="nombreJours" value="20"/></p>
+        <br>
+        <p>Salaire de base :  <input type="number" name="salaireDeBase" value="20000004"/></p>
+        <p>Nombre de jours d'absence : <input type="number" name="joursAbsence" value="5"/></p>
+        <br>
+        <h3>Heures supplémentaires majorées de</h3>
+        <p>30%: <input type="number" name="heureSup30" value="0"/></p>
+        <p>40%: <input type="number" name="heureSup40" value="0"/></p>
+        <p>50%: <input type="number" name="heureSup50" value="0"/></p>
+        <p>100%: <input type="number" name="heureSup100" value="0"/></p>
+        <br>
+        <p>Prime de rendement: <input type="number" name="primeDeRendement" value="100"/></p>
+        <p>Prime d'ancienneté: <input type="number" name="primeDanciennete" value="50"/></p>
+        <p>Majoration pour heure de nuit : <input type="number" name="majorationHeureNuit" value="0"/></p>
+        <p>Primes diverses: <input type="number" name="primeDiverse" value="0"/></p>
+        <p>Rappels sur période antérieure: <input type="number" name="rappelsPeriodeAnterieure" value="0"/></p>
+        <p>Droits de congés: <input type="number" name="droitConge" value="0"/></p>
+        <p>Droit de préavis: <input type="number" name="droitPreavis" value="0"/></p>
+        <p>Indemnité de licenciement: <input type="number" name="indemniteDeLicenciement" value="0"/></p>
+
+        <p><input type="submit" value="Envoyer"></p>
+    </form>
+</body>
+</html>
+

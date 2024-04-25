@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="~/css/Header.css">
+        <link rel="stylesheet" href="~/css/Main.css">
+        <link rel="stylesheet" href="~/css/Qcm.css">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="bootstrap.min.js"></script>
+        <title>Document</title>
+    </head>
+    <style>
+    
+form ul {
+  padding: 0; 
+  height: fit-content;
+  flex-direction: column;
+  
+}
+
+form ul li {
+  display: flex; /* Affiche les éléments de liste sur la même ligne */
+  margin-right: 10px; 
+  background-color: rgb(234, 234, 234);
+  padding: 5px;
+  margin-left: 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 1000px;
+}
+
+form ul input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+form p{
+  font-weight: bold;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #005af0;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+  width :1000px
+}
+
+.btn:hover{
+  text-decoration: none;
+  background-color: rgb(95, 149, 241);
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+}
+
+    </style>
+<body>
+     <div class="main">
+    <div className="qcm">
+      <form action="/QCMReponse/Insert" method="POST">
+            @{
+                string currentQuestion = null;
+            }
+            @foreach (var qcmBesoin in ViewBag.AllQCMBesoins)
+            {
+                if (currentQuestion != qcmBesoin.Question)
+                {
+                    <p>@qcmBesoin.Question</p>
+                    currentQuestion = qcmBesoin.Question;
+                }
+                <ul>
+                    <li><input type="checkbox" name="@qcmBesoin.ID_Question" value="@qcmBesoin.ID_Question.@qcmBesoin.Indice" />@qcmBesoin.Reponse</li>
+                </ul>
+            }
+      <div>
+          <button class="btn" type="submit"> Register</button>
+      </div>
+      </form>
+    </div>
+</body>
+</html>
